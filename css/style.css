@@ -1,13 +1,36 @@
-.card {
-  margin: 0 auto;
-  float: none;
-  margin: 60px 50px;
-}
-
 body {
-  min-height: 100vh;
+  background-color: #6c7b95;
+}
+.card {
+  float: none;
+  margin: 80px 80px;
+  border-radius: 8px;
 }
 
-.flex-grow {
-  flex: 1;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #464159;
+  color: #6c7b95;
+  text-align: center;
+  font-size: 12px;
+}
+
+.navbar {
+  background-color: #464159 !important;
+}
+
+h3 {
+  color: #6c7b95;
+}
+
+button {
+  background-color: #8bbabb !important;
+  border-radius: 8px !important;
+}
+
+button:hover {
+  background-color: #c7f0db !important;
 }
