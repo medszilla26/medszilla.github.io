@@ -3,6 +3,16 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.jumbotron {
+  background-color: #464159;
+
+  color: white;
+}
+.container {
+  background: linear-gradient(#464159, #6c7b95);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .card {
   float: none;
   margin: 80px 80px;
