@@ -35,6 +35,9 @@ footer {
   background-color: #74a4bc !important;
 }
 
+h1 {
+  color: whitesmoke;
+}
 h2 {
   color: #74a4bc;
 }
@@ -57,4 +60,8 @@ button:hover {
 }
 .nav-link:hover {
   color: #5b85aa !important;
+}
+
+.img-thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
