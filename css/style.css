@@ -1,13 +1,34 @@
+/*font-family: 'Cairo', sans-serif; */
+
 body {
   background: linear-gradient(#74a4bc, #6f8695);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 h1 {
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
   color: whitesmoke;
 }
 h2 {
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
   color: #74a4bc;
+}
+a,
+p,
+label,
+button,
+footer {
+  font-family: "Cairo", sans-serif;
+  font-weight: 300;
+}
+button {
+  background-color: #5b85aa !important;
+  border-radius: 8px !important;
+}
+button:hover {
+  background-color: #274690 !important;
 }
 footer {
   position: fixed;
@@ -19,12 +40,9 @@ footer {
   text-align: center;
   font-size: 12px;
 }
-button {
-  background-color: #5b85aa !important;
-  border-radius: 8px !important;
-}
-button:hover {
-  background-color: #274690 !important;
+.navbar-brand {
+  font-family: "Cairo", sans-serif;
+  font-weight: 600;
 }
 .navbar {
   background-color: #74a4bc !important;
