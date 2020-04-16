@@ -6,12 +6,12 @@ body {
   background-attachment: fixed;
 }
 h1 {
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: whitesmoke;
 }
 h2 {
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: #74a4bc;
 }
@@ -20,7 +20,7 @@ p,
 label,
 button,
 footer {
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
 }
 button {
@@ -41,8 +41,9 @@ footer {
   font-size: 12px;
 }
 .navbar-brand {
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
+  font-size: 24px;
 }
 .navbar {
   background-color: #74a4bc !important;
