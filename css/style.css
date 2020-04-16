@@ -3,6 +3,41 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+h1 {
+  color: whitesmoke;
+}
+h2 {
+  color: #74a4bc;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6f8695;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+}
+button {
+  background-color: #5b85aa !important;
+  border-radius: 8px !important;
+}
+button:hover {
+  background-color: #274690 !important;
+}
+.navbar {
+  background-color: #74a4bc !important;
+}
+.nav-link {
+  color: whitesmoke !important;
+}
+.nav-link:hover {
+  color: #5b85aa !important;
+}
+.active {
+  color: #274690 !important;
+}
 .jumbotron {
   background-color: #5b85aa;
   color: white;
@@ -19,50 +54,6 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #6f8695;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 12px;
-}
-
-.navbar {
-  background-color: #74a4bc !important;
-}
-
-h1 {
-  color: whitesmoke;
-}
-
-h2 {
-  color: #74a4bc;
-}
-
-button {
-  background-color: #5b85aa !important;
-  border-radius: 8px !important;
-}
-
-button:hover {
-  background-color: #274690 !important;
-}
-
-.nav-link {
-  color: whitesmoke !important;
-}
-
-.active {
-  color: #274690 !important;
-}
-.nav-link:hover {
-  color: #5b85aa !important;
-}
-
 .img-thumbnail {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
