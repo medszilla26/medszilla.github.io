@@ -6,3 +6,6 @@ footer {
 section {
   padding-bottom: 50px;
 }
+.card {
+  box-shadow: black;
+}
