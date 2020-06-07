@@ -1,4 +1,4 @@
-<a hrer="https://medszilla26.github.io/">My Portfolio</a>
+<a href="https://medszilla26.github.io/">My Portfolio</a>
 
 ## My Personal Portfolio
 
