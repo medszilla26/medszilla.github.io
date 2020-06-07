@@ -1,9 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 200px;
+}
+
 footer {
   background-color: teal;
   color: white;
 }
 
 section {
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
