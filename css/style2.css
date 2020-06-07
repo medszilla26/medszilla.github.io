@@ -4,18 +4,32 @@ footer {
 }
 
 section {
-  padding-bottom: 250px;
+  padding-bottom: 200px;
+}
+
+.gh-ic,
+.li-ic,
+.ins-ic,
+.mailto,
+.tel {
+  color: inherit;
+}
+.gh-ic:hover,
+.li-ic:hover,
+.ins-ic:hover,
+.mailto:hover,
+.tel:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+}
+
+button:hover {
 }
 
 .contact {
   padding-bottom: 100px;
-}
-
-a {
-  color: inherit;
-}
-a :hover {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
 }
