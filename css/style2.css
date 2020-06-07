@@ -4,8 +4,18 @@ footer {
 }
 
 section {
-  padding-bottom: 50px;
+  padding-bottom: 250px;
 }
-.card {
-  box-shadow: black;
+
+.contact {
+  padding-bottom: 100px;
+}
+
+a {
+  color: inherit;
+}
+a :hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
