@@ -1,3 +1,5 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif; */
 html {
   scroll-behavior: smooth;
 }
@@ -5,6 +7,11 @@ html {
 body {
   padding-top: 200px;
   background-color: ghostwhite;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 footer {
@@ -17,17 +24,22 @@ section {
   padding-bottom: 200px;
 }
 
+.btn,
+.navbar-toggler {
+  background-color: #4d5d53;
+}
+
 .btn:hover {
   background-color: #80c68c;
   outline-color: none;
 }
 
-button:hover {
-}
-
 .nav-link,
 .navbar-brand {
   color: #4d5d53 !important;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
 }
 .gh-ic,
 .li-ic,
