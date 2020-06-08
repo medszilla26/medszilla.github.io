@@ -4,11 +4,12 @@ html {
 
 body {
   padding-top: 200px;
+  background-color: ghostwhite;
 }
 
 footer {
-  background-color: teal;
-  color: white;
+  background: #a6fcb7;
+  color: black;
 }
 
 section {
@@ -16,33 +17,48 @@ section {
   padding-bottom: 200px;
 }
 
-.gh-ic,
-.li-ic,
-.ins-ic,
-.mailto,
-.tel {
-  color: inherit;
-}
-.gh-ic:hover,
-.li-ic:hover,
-.ins-ic:hover,
-.mailto:hover,
-.tel:hover {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-.logo {
-  height: 100px;
-  width: 100px;
-  margin-left: 10px;
-}
 button {
 }
 
 button:hover {
 }
 
+.nav-link,
+.navbar-brand {
+  color: #4d5d53 !important;
+}
+.gh-ic,
+.li-ic,
+.ins-ic,
+.mailto,
+.tel {
+  color: #4d5d53;
+}
+.nav-link:hover,
+.navbar-brand:hover,
+.gh-ic:hover,
+.li-ic:hover,
+.ins-ic:hover {
+  color: #a6fcb7 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mailto:hover,
+.tel:hover {
+  color: #4d5d53;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
+
 .contact {
   padding-bottom: 100px;
+}
+
+/* Bootstrap Overrides */
+.bg-dark {
+  background: #80c68c !important;
 }
