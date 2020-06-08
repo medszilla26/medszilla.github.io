@@ -32,7 +32,11 @@ section {
   text-decoration: none;
   cursor: pointer;
 }
-
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
 button {
 }
 
