@@ -17,7 +17,9 @@ section {
   padding-bottom: 200px;
 }
 
-button {
+.btn:hover {
+  background-color: #80c68c;
+  outline-color: none;
 }
 
 button:hover {
@@ -35,7 +37,6 @@ button:hover {
   color: #4d5d53;
 }
 .nav-link:hover,
-.navbar-brand:hover,
 .gh-ic:hover,
 .li-ic:hover,
 .ins-ic:hover {
