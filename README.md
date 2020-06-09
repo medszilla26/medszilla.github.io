@@ -3,5 +3,5 @@
 ## My Personal Portfolio
 
 This is my portfolio page.
-I utilized bootstrap and also google fonts for the Cairo font.
+I utilized bootstrap
 It is responsive to other platforms.
