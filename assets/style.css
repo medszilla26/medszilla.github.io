@@ -48,6 +48,8 @@ section {
   font-weight: bold;
   font-size: 18px;
 }
+
+.wrld-ic,
 .gh-ic,
 .li-ic,
 .ins-ic,
@@ -55,6 +57,7 @@ section {
 .tel {
   color: #4d5d53;
 }
+.wrld-ic:hover,
 .nav-link:hover,
 .gh-ic:hover,
 .li-ic:hover,
