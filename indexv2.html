@@ -7,9 +7,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css"
+
     />
 
     <link
@@ -30,41 +29,106 @@
       <a class="navbar-brand" href="#">
         <img src="assets/pablo-logo.png" class="logo" /> Pablo Hernandez
       </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navBarContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
+    
+    
+    
     <!-- Portfolio Section -->
     <section class="gallery-block cards-gallery">
-      <div class="container">
+      
+        <div class="container">
+        
         <div class="heading">
           <h2>Portfolio</h2>
         </div>
+        
         <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="card border-0 shadow p-1">
-              <img
-                src="assets/PasswordGenerator.png"
-                alt="screengrab of Password Generator assignment"
-                class="card-img-top"
-              />
-              <div class="card-body">
-                  <h6 class="card-title">Password Generator</h6>
-                  <p>This is a description of the project.</p>
-              </div>
-            </div>
-          </div>
-        <div class="col-md-6 col-lg-4">
-            <div class="card border-0 shadow p-1">
-              <img
-                src="assets/BurgerApp.png"
-                alt="screengrab of Burger App assignment"
-                class="card-img-top"
-              />
-              <div class="card-body">
-                  <h6 class="card-title">Eat-Da-Burger</h6>
-                  <p>This is a description of the project.</p>
-              </div>
+          
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 shadow p-1">
+                  <div class="media-body">
+                      <h4 class="card-title">Password Generator</h4>
+                  </div>
+                  <div class="card-media">
+                      <img src="assets/PasswordGenerator.png" alt="screengrab of Password Generator assignment" class="card-img-top"/>
+                  </div>
+                  <div class="card-body">
+                      <p>This is a description of the assignment.</p>
+                  </div>
+                  <div class="card-footer bg-white">
+                    <a href="https://medszilla26.github.io/password-generator/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/medszilla26/password-generator" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                  </div>
+                </div>
             </div>
 
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 shadow p-1">
+                  <div class="media-body">
+                      <h4 class="card-title">Eat-Da-Burger!</h4>
+                  </div>
+                  <div class="card-media">
+                      <img src="assets/BurgerApp.png" alt="screengrab of Eat-Da-Burger assignment" class="card-img-top"/>
+                  </div>
+                  <div class="card-body">
+                      <p>This is a description of the assignment.</p>
+                  </div>
+                <div class="card-footer bg-white">
+                    <a href="https://fierce-eyrie-21522.herokuapp.com/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/medszilla26/eat-da-burger" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                </div>
+              </div>     
+            </div>
+                
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 shadow p-1">
+                  <div class="media-body">
+                      <h4 class="card-title">Eat-Da-Burger!</h4>
+                  </div>
+                  <div class="card-media">
+                      <img src="assets/BurgerApp.png" alt="screengrab of Eat-Da-Burger assignment" class="card-img-top"/>
+                  </div>
+                  <div class="card-body">
+                      <p>This is a description of the assignment.</p>
+                  </div>
+                <div class="card-footer bg-white">
+                    <a href="https://fierce-eyrie-21522.herokuapp.com/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/medszilla26/eat-da-burger" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                </div>
+              </div>     
+            </div>
+                
+        
+
+
+          
+          
+          
+          
+          
+          
+
+
+
+            
+        </div>
     </section>
 
     <script
