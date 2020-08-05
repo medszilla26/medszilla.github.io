@@ -7,9 +7,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css"
+
     />
 
     <link
@@ -30,284 +29,251 @@
       <a class="navbar-brand" href="#">
         <img src="assets/pablo-logo.png" class="logo" /> Pablo Hernandez
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navBarContent"
-      >
-        <span class="navbar-toggler-icon"> </span>
-      </button>
-      <div class="collapse navbar-collapse" id="navBarContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="navbar-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="navbar-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navBarContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-
     <!-- About Me Section -->
     <section class="container" id="about">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <img
-            class="img-thumbnail shadow bg-white rounded"
-            src="assets/headshot.jpg"
-          />
+        <div class="heading">
+            <h2>About Me</h2>
         </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-6 about">
-          <p>
-            My name is Pablo Hernandez, I am currently attending the UT Austin
-            Coding Bootcamp program. I enjoy the challenges it brings and am
-            always excited to learn new things.
-          </p>
-          <p>
-            Currently I am a TSA officer, have been for 9 years now. Besides
-            doing officer floor work I have also coached and trained new
-            officers and worked in the logistics department.
-          </p>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg6">
+                <img class="img-thumbnail shadow bg-white"
+                src="assets/headshot.jpg"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 about">
+                <p>
+                    My name is Pablo Hernandez, I am currently attending the 
+                    UT Austin Coding Bootcamp program. I enjoy the challenges it brings and am
+                    always excited to learn new things.
+                </p>
+                <p>
+                    Currently I am a TSA Officer, have been for 9 years now. Besides
+                    doing officer floor work I have also coached and trained new
+                    officers and worked in the logistics department.
+                </p>
+            </div>
         </div>
-      </div>
     </section>
-
     <!-- Portfolio Section -->
-    <section class="container" id="portfolio">
-      <h2 class="text-center mt-4 mb-0">
-        Portfolio
-      </h2>
-      <hr class="mt-2 mb-5" />
-      <div class="row text-center text-lg left">
-        <div class="col-lg-12 col-12">
-          <h4>Password Generator</h4>
-          <a
-            class="wrld-ic"
-            href="https://medszilla26.github.io/password-generator/"
-            target="blank"
-          >
-            <i class="fa fa-window-maximize mr-4 fa-2x"> </i>
-          </a>
-          <a
-            class="gh-ic"
-            href="https://github.com/medszilla26/password-generator"
-            target="blank"
-          >
-            <i class="fa fa-github-alt mr-4 fa-2x"> </i>
-          </a>
-          <img
-            class="img-fluid img-thumbnail shadow p-1 mb-5 bg-white rounded"
-            src="assets/PasswordGenerator.png"
-            alt="screengrab of Password Generator assignment"
-          />
+    <section class="gallery-block cards-gallery" id="portfolio">
+      
+        <div class="container">
+        
+        <div class="heading">
+          <h2>Portfolio</h2>
         </div>
-        <div class="col-lg-12 col-12">
-          <h4>Code Quiz</h4>
-          <a
-            class="wrld-ic"
-            href="https://medszilla26.github.io/timed-code-quiz/"
-            target="blank"
-          >
-            <i class="fa fa-window-maximize mr-4 fa-2x"> </i>
-          </a>
-          <a
-            class="gh-ic"
-            href=" https://github.com/medszilla26/timed-code-quiz"
-            target="blank"
-          >
-            <i class="fa fa-github-alt mr-4 fa-2x"> </i>
-          </a>
-          <img
-            class="img-fluid img-thumbnail shadow p-1 mb-5 bg-white rounded"
-            src="assets/CodeQuiz.png"
-            alt="screengrab of Code Quiz assignment"
-          />
+        
+        <div class="row">
+          
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 shadow p-1">
+                  <div class="media-body">
+                      <h4 class="card-title">Password Generator</h4>
+                  </div>
+                  <div class="card-media">
+                      <img src="assets/PasswordGenerator.png" alt="screengrab of Password Generator assignment" class="card-img-top"/>
+                  </div>
+                  <div class="card-body">
+                      <p>This is a description of the assignment.</p>
+                  </div>
+                  <div class="card-footer bg-white">
+                    <a href="https://medszilla26.github.io/password-generator/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/medszilla26/password-generator" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 shadow p-1">
+                  <div class="media-body">
+                      <h4 class="card-title">Eat-Da-Burger!</h4>
+                  </div>
+                  <div class="card-media">
+                      <img src="assets/BurgerApp.png" alt="screengrab of Eat-Da-Burger assignment" class="card-img-top"/>
+                  </div>
+                  <div class="card-body">
+                      <p>This is a description of the assignment.</p>
+                  </div>
+                <div class="card-footer bg-white">
+                    <a href="https://fierce-eyrie-21522.herokuapp.com/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/medszilla26/eat-da-burger" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                </div>
+              </div>     
+            </div>
+                
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 shadow p-1">
+                  <div class="media-body">
+                      <h4 class="card-title">Code Quiz</h4>
+                  </div>
+                  <div class="card-media">
+                      <img src="assets/CodeQuiz.png" alt="screengrab of Code Quiz assignment" class="card-img-top"/>
+                  </div>
+                  <div class="card-body">
+                      <p>This is a description of the assignment.</p>
+                  </div>
+                <div class="card-footer bg-white">
+                    <a href="https://medszilla26.github.io/timed-code-quiz/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/medszilla26/timed-code-quiz" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                </div>
+              </div>     
+            </div>
+               
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 shadow p-1">
+                  <div class="media-body">
+                      <h4 class="card-title">Brewery Finder</h4>
+                  </div>
+                  <div class="card-media">
+                      <img src="assets/BrewFinder.png" alt="screengrab of Brewery Finder group project" class="card-img-top"/>
+                  </div>
+                  <div class="card-body">
+                      <p>This is a description of the assignment.</p>
+                  </div>
+                <div class="card-footer bg-white">
+                    <a href="https://brandonejenkins.github.io/Beer-Finder/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/BrandonEJenkins/Beer-Finder/tree/pablo" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                </div>
+              </div>     
+            </div>
         </div>
-        <div class="col-lg-12 col-12">
-          <h4>Brewery Finder</h4>
-          <a
-            class="wrld-ic"
-            href="https://brandonejenkins.github.io/Beer-Finder/"
-            target="blank"
-          >
-            <i class="fa fa-window-maximize mr-4 fa-2x"> </i>
-          </a>
-          <a
-            class="gh-ic"
-            href="https://github.com/BrandonEJenkins/Beer-Finder/tree/pablo"
-            target="blank"
-          >
-            <i class="fa fa-github-alt mr-4 fa-2x"> </i>
-          </a>
-          <img
-            class="img-fluid img-thumbnail shadow p-1 mb-5 bg-white rounded"
-            src="assets/BrewFinder.png"
-            alt="screengrab of Brewery Finder group project"
-          />
-        </div>
-        <div class="col-lg-12 col-12">
-          <h4>Eat-Da-Burger</h4>
-          <a
-            class="wrld-ic"
-            href="https://fierce-eyrie-21522.herokuapp.com/"
-            target="blank"
-          >
-            <i class="fa fa-window-maximize mr-4 fa-2x"> </i>
-          </a>
-          <a
-            class="gh-ic"
-            href="https://github.com/medszilla26/eat-da-burger"
-            target="blank"
-          >
-            <i class="fa fa-github-alt mr-4 fa-2x"> </i>
-          </a>
-          <img
-            class="img-fluid img-thumbnail shadow p-1 mb-5 bg-white rounded"
-            src="assets/BurgerApp.png"
-            alt="screengrab of Burger App assignment"
-          />
-        </div>
-      </div>
-      <hr class="mt-2 mb-5" />
     </section>
 
-    <!-- Contact Card  Section -->
-    <section
-      class="contact container d-block justify-content-center"
-      id="contact"
-    >
-      <div class="card card-outline-secondary shadow p-1 mb-5 bg-white rounded">
-        <div class="card-header">
-          <h2 class="text-center mb-0">Contact</h2>
-        </div>
-        <div class="card-body">
-          <form class="form" role="form" autocomplete="off">
-            <fieldset>
-              <label for="name" class="mb-0">Name</label>
-              <div class="row mb-1">
-                <div class="col-lg-12">
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="form-control"
-                    required=""
-                  />
-                </div>
-              </div>
-              <label for="email" class="mb-0">Email</label>
-              <div class="row mb-1">
-                <div class="col-lg-12">
-                  <input
-                    type="text"
-                    name="email"
-                    id="email"
-                    class="form-control"
-                    required=""
-                  />
-                </div>
-              </div>
-              <label for="message" class="mb-0">Message</label>
-              <div class="row mb-1">
-                <div class="col-lg-12">
-                  <textarea
-                    rows="6"
-                    name="message"
-                    id="message"
-                    class="form-control"
-                    required=""
-                  ></textarea>
-                </div>
-              </div>
+    <!-- Contact Card Section -->
+    <section class="contact container d-block justify-content-center" id="contact">
+        <div class="card card-outline-secondary shadow p-1 mb-5">
+            <div class="card-header bg-white">
+                <h2 class="text-center mb-0">Contact</h2>
+            </div>
+            <div class="card-body">
+                <form class="form" role="form" autocomplete="off">
+                    <fieldset>
+                        <label for="name" class="mb-0">Name</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <input 
+                                type="text" 
+                                name="name" 
+                                id="name" 
+                                class="form-control" 
+                                required="">
+                            </div>
+                        </div>
+                        <label for="email" class="mb-0">Email</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <input 
+                                type="text"
+                                name="email"
+                                class="form-control"
+                                required="">
+                            </div>
+                        </div>
+                        <label for="message" class="mb-0">Message</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <textarea
+                                rows="6"
+                                name="message"
+                                id="message"
+                                class="form-control"
+                                required=""
+                                ></textarea>
+                            </div>
+                        </div>
 
-              <!-- Submit Button -->
-              <button
-                type="submit"
-                class="btn btn-secondary btn-lg float-right"
-              >
-                <i class="fa fa-paper-plane mr-2 fa-3"></i>Send
-              </button>
-            </fieldset>
-          </form>
+                        <!-- Form Submit Button -->
+                        <button 
+                        type="submit"
+                        class="btn btn-secondary btn-lg float-right"
+                        >
+                    <i class="fa fa-paper-plane mr-2 fa-3"></i>
+                    Send</button>
+                    </fieldset>
+                </form>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Footer Section -->
     <footer class="page-footer font-small blue-grey lighten-5">
-      <div style="background-color: #80c68c;">
+        <div style="background-color: #6aa9a3;">
         <div class="container">
-          <div class="row py-4 d-flex align-items-center">
-            <div
-              class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0"
-            >
-              <h6 class="mb-0">Follow or find me here!</h6>
+            <div class="row py-4 d-flex align-items-center">
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h5>Follow or find me here!</h5>
+                </div>
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <!-- GitHub Info -->
+                    <a 
+                    class="gh-ic"
+                    href="https://github.com/medszilla26"
+                    target="blank"
+                    >
+                    <i class="fa fa-github-square mr-4 fa-2x"></i>
+                    </a>
+                    <!-- LinkedIn Info -->
+                    <a 
+                    class="li-ic"
+                    href="https://www.linkedin.com/in/pablohdzjr"
+                    target="blank"
+                    >
+                    <i class="fa fa-linkedin-square mr-4 fa-2x"></i>
+                    </a>
+                    <!-- Instagram Info -->
+                    <a 
+                    class="ins-ic"
+                    href="http://www.instagram.com/medszilla26"
+                    target="blank"
+                    >
+                    <i class="fa fa-instagram mr-4 fa-2x"></i>
+                    </a>
+                </div>
+                </div>
             </div>
-            <div class="col-md-6 col-lg-7 text-center text-md-right">
-              <!-- Github -->
-              <a
-                class="gh-ic"
-                href="https://github.com/medszilla26"
-                target="blank"
-              >
-                <i class="fa fa-github-square mr-4 fa-2x"> </i>
-              </a>
-              <!--Linkedin -->
-              <a
-                class="li-ic"
-                href="https://www.linkedin.com/in/pablohdzjr"
-                target="blank"
-              >
-                <i class="fa fa-linkedin-square mr-4 fa-2x"> </i>
-              </a>
-              <!--Instagram-->
-              <a class="ins-ic" href="#" target="blank">
-                <i class="fa fa-instagram mr-4 fa-2x"></i>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
-
-      <!-- Footer Links -->
-      <div class="container text-center text-md-left mt-5">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
         <div class="row mt-3 dark-grey-text">
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase font-weight-bold">reach me</h6>
-            <hr
-              class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px;"
-            />
-            <!-- Email Address -->
-            <p>
-              <a class="mailto" href="mailto:pablohdzjr@gmail.com"
-                ><i class="fa fa-envelope mr-3"></i>pablohdzjr@gmail.com</a
-              >
-            </p>
-            <!-- Phone Number -->
-            <p>
-              <a class="tel" href="tel:832-904-1663"
-                ><i class="fa fa-phone mr-3"></i>(832) 904-1663</a
-              >
-            </p>
-          </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase font-weight-bold">reach me</h6>
+                <hr 
+                    class="accent-3 mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px;"
+                    />
+                    <!-- Email Address -->
+                    <p>
+                        <a class="mailto" href="mailto:pablohdzjr@gmail.com">
+                            <i class="fa fa-envelope mr-3"></i>pablohdzjr@gmail.com
+                        </a>
+                    </p>
+                    <!-- Phone Number -->
+                    <p>
+                        <a class="tel" href="tel:832-904-1663">
+                            <i class="fa fa-phone mr-3"></i>(832) 904-1663
+                        </a>
+                    </p>
+            </div>
         </div>
-      </div>
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center text-black-50 py-5">
-        © 2020 Pablo Hernandez, All Rights Reserved
-      </div>
-      <!-- Copyright -->
+    </div>
     </footer>
 
-    <!-- JavaScript -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
