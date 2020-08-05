@@ -48,9 +48,12 @@
     </nav>
     <!-- About Me Section -->
     <section class="container" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg6">
-                <img class="img-thumbnail shadow bg-white rounded"
+                <img class="img-thumbnail shadow bg-white"
                 src="assets/headshot.jpg"/>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 about">
@@ -68,7 +71,7 @@
         </div>
     </section>
     <!-- Portfolio Section -->
-    <section class="gallery-block cards-gallery">
+    <section class="gallery-block cards-gallery" id="portfolio">
       
         <div class="container">
         
@@ -117,35 +120,62 @@
             <div class="col-md-6 col-lg-4">
               <div class="card border-0 shadow p-1">
                   <div class="media-body">
-                      <h4 class="card-title">Eat-Da-Burger!</h4>
+                      <h4 class="card-title">Code Quiz</h4>
                   </div>
                   <div class="card-media">
-                      <img src="assets/BurgerApp.png" alt="screengrab of Eat-Da-Burger assignment" class="card-img-top"/>
+                      <img src="assets/CodeQuiz.png" alt="screengrab of Code Quiz assignment" class="card-img-top"/>
                   </div>
                   <div class="card-body">
                       <p>This is a description of the assignment.</p>
                   </div>
                 <div class="card-footer bg-white">
-                    <a href="https://fierce-eyrie-21522.herokuapp.com/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
-                    <a href="https://github.com/medszilla26/eat-da-burger" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                    <a href="https://medszilla26.github.io/timed-code-quiz/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/medszilla26/timed-code-quiz" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
                 </div>
               </div>     
             </div>
-                
-        
-
-
-          
-          
-          
-          
-          
-          
-
-
-
-            
+               
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 shadow p-1">
+                  <div class="media-body">
+                      <h4 class="card-title">Brewery Finder</h4>
+                  </div>
+                  <div class="card-media">
+                      <img src="assets/BrewFinder.png" alt="screengrab of Brewery Finder group project" class="card-img-top"/>
+                  </div>
+                  <div class="card-body">
+                      <p>This is a description of the assignment.</p>
+                  </div>
+                <div class="card-footer bg-white">
+                    <a href="https://brandonejenkins.github.io/Beer-Finder/" class="btn btn-sm btn-secondary" target="blank">Live Site</a>  
+                    <a href="https://github.com/BrandonEJenkins/Beer-Finder/tree/pablo" class="btn btn-sm btn-secondary" target="blank">GitHub</a>
+                </div>
+              </div>     
+            </div>
         </div>
+    </section>
+
+    <!-- Contact Card Section -->
+    <section class="contact container d-block justify-content-center" id="contact">
+        <div class="card card-outline-secondary shadow p-1 mb-5">
+            <div class="card-header bg-white">
+                <h2 class="text-center mb-0">Contact</h2>
+            </div>
+            <div class="card-body">
+                <form class="form" role="form" autocomplete="off">
+                    <fieldset>
+                        <label for="name" class="mb-0">Name</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <input type="text" name="name" id="name" class="form-control" required="">
+                            </div>
+                        </div>
+                        <label for="email" class="mb-0">Email</label>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
     </section>
 
     <script

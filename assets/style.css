@@ -92,3 +92,7 @@ section {
 .headshot {
   width: 100%;
 }
+
+.card {
+  margin-top: 20px;
+}
