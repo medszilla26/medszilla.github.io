@@ -4,10 +4,6 @@
 
 https://medszilla26.github.io/
 
-## Sample Video
-
-NA
-
 ## Description
 
 This is an updated version of my personal site that contains projects and assignments that were completed while attending UT Austin's Full Stack Development Bootcamp Program.
