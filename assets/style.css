@@ -7,6 +7,7 @@ body {
   background-color: #def2f1;
 }
 
+h1,
 h2,
 h4,
 h5,
@@ -107,4 +108,18 @@ section {
 .card {
   margin-top: 20px;
   min-height: 300px;
+}
+
+.new-image-window {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.copyright {
+  font-size: 11px;
+  font-weight: lighter;
+  color: #def2f1;
 }
